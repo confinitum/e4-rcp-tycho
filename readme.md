@@ -31,3 +31,6 @@ This is  tycho pomless build, which means there is only one mandatory `pom.xml` 
 
 Features and target platform seem also to be mandatory for a working tycho build.
 
+## Acknowledgements
+
+[Commmand line build for Eclipse plug-ins, OSGi bundles and Eclipse applications with Maven Tycho - Tutorial](https://www.vogella.com/tutorials/EclipseTycho/article.html)

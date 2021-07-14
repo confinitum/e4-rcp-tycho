@@ -1,7 +1,7 @@
 # This workflow will build a Java project with Maven
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
-name: Java CI with Maven
+name: Build
 
 on:
   push:
@@ -33,3 +33,8 @@ jobs:
       with:
         name: linux-client
         path: example.product/target/products/*linux*.zip
+    - name: Archive test results
+      uses: actions/upload-artifact@v2
+      with:
+        name: service-test
+        path: example.service.test/target/surefire-reports/*.txt
