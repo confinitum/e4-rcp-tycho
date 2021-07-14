@@ -31,5 +31,5 @@ jobs:
     - name: Archive linux dist
       uses: actions/upload-artifact@v2
       with:
-        name: windows-client
-        path: example.product/target/products/*.linux*.zip
+        name: linux-client
+        path: example.product/target/products/*linux*.zip
