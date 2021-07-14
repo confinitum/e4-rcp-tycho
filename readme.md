@@ -1,4 +1,7 @@
 # Example Eclipse 4 RCP App build with Tycho
+
+![build](https://github.com/confinitum/e4-rcp-tycho/actions/workflows/maven.yml/badge.svg)
+
 ## Setup
 1. Eclipse 21.06 RCP with e4 Tools installed
 1. Maven.   
