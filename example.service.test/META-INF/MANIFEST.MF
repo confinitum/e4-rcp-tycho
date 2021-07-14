@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: example.service.test
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: example.service;bundle-version="1.0.0"
+Automatic-Module-Name: example.service.test
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.junit,
+ org.junit.jupiter.api

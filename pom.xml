@@ -85,6 +85,7 @@
    <module>example.app</module>
    <module>example.plugin</module>
    <module>example.service</module>
+   <module>example.service.test</module>
    <module>example.feature</module>
    <module>example.product</module>
  </modules>
