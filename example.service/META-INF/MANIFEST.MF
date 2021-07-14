@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Service
+Bundle-SymbolicName: example.service
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: example.service
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: javax.annotation
+Require-Bundle: org.eclipse.osgi.services
+Service-Component: OSGI-INF/example.service.impl.GreetingServiceImpl.xml
+Bundle-ActivationPolicy: lazy
+Export-Package: example.service

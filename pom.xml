@@ -84,6 +84,7 @@
    <module>target-platform</module>
    <module>example.app</module>
    <module>example.plugin</module>
+   <module>example.service</module>
    <module>example.feature</module>
    <module>example.product</module>
  </modules>

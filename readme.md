@@ -11,7 +11,9 @@ Optionally you can use docker by invoking mvnOnDocker.cmd on windows
 
     * e.app - Application plugin
     * e.feature - feature definition 
+    * e.plugin - E4-Contribution plugin
     * e.product - product definition, feature based
+    * e.service - OSGI Service bundle (DS)
     * target-platform - target platform
 
 ## Usage
