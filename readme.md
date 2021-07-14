@@ -5,7 +5,7 @@
 ## Setup
 1. Eclipse 21.06 RCP with e4 Tools installed
 1. Maven.   
-This project was created and testes with maven 3.6.1.  
+This project was created and tested with maven 3.6.1.  
 Optionally you can use docker by invoking mvnOnDocker.cmd on windows
 2. Basic RCP App:  
 

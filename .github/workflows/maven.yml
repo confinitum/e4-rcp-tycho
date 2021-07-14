@@ -23,3 +23,13 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn -B verify --file pom.xml
+    - name: Archive win dist
+      uses: actions/upload-artifact@v2
+      with:
+        name: windows-client
+        path: example.product/target/products/*.win32*.zip
+    - name: Archive linux dist
+      uses: actions/upload-artifact@v2
+      with:
+        name: windows-client
+        path: example.product/target/products/*.linux*.zip
